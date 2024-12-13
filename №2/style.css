@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    font-family: "Merriweather", serif;
+    font-style: normal;
+}
+
+p {
+    font-size: 20px;
+}
+
+li {
+    font-size: 20px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: #555;
+}
+
+aside {
+    box-shadow: inset -5px 0 5px -3px rgba(0,0,0,0.3)
+}
+
+header {
+    padding-right: 50px;
+    margin-bottom: 30px;
+}
+
+.header-up {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 100%;
+}
+
+.header-info {
+    right: 100px;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-element {
+    margin-left: 50px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    padding-right: 50px;
+}
+
+aside {
+    margin-right: 100px;
+    min-width: 240px;
+}
+
+aside > ul > li {
+    margin-bottom: 20px;
+}
+
+.heading {
+    margin-left: 20px;
+}
+
+.card {
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #fae8e8;
+    box-shadow: 7px 5px 5px rgb(245, 122, 122);
+    text-align: center;
+}
+
+.card-img {
+    width: 300px;
+    height: 444px;
+    border-radius: 15px;
+}
+
+.card-button {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #fae8e8;
+    border: none;
+    box-shadow: 2px 2px 2px rgb(245, 122, 122);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-button:hover {
+    box-shadow: 2px 2px 2px 2px rgb(245, 122, 122);
+    cursor: pointer;
+}
+
+.card-button:active {
+    transform: translateY(2px);
+    box-shadow: none;
+    background-color: #fedada;
+}
+
+footer {
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+
+.link1 {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.link2 {
+    position: fixed;
+    right: 0;
+    bottom: 50px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.5); 
+}
+
+.wrapper {
+    width: 25%;
+    height: 370px;
+    background-color: rgba(250, 210, 214);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 30px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 20px;
+    margin: 10% auto;
+}
+
+.flex-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+form {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.form-heading {
+    text-align: center;
+}
+
+.p-label {
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+.form-element {
+    margin-bottom: 14px;
+}
+
+.textarea {
+    margin-bottom: 10px;
+}
+
+.checkbox {
+    margin-bottom: 10px;
+}
+
+
+.button-post {
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: #fae8e8;
+    border: none;
+    box-shadow: 2px 2px 2px rgb(245, 122, 122);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button-post:hover {
+    box-shadow: 2px 2px 2px 2px rgb(245, 122, 122);
+}
+
+.button-post:active {
+    transform: translateY(2px);
+    box-shadow: none;
+    background-color: #fedada;
+}
+
+.modal2 {
+    display: none;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    top: 0;
+    text-align: center;
+}
+
+.error {
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+    color: #5d0000;
+    padding-top: 30px;
+}
+
+#cross {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#cross:hover {
+    width: 96px;
+    right: 3px;
+    top: 3px;
+}
+
+.hidden {
+    display: none;
+}
+
+#message {
+    position: absolute;
+    background-color: #8992ee;
+    font-size: 36px;
+    margin-top: 20px;
+    transition: color 1s;
+}
+
+.success {
+    color: green;
+
+}

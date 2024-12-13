@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>типа разработал</title>
+</head>
+<body>
+    <header class="header"></header>
+        <div class="header-up">
+            <img class="logo" src="logo.png" alt="#">
+            <div class="header-info">
+                <p>Группа ЭФБО-01-23</p>
+                <p>Новоженин Никита Денисович</p>
+            </div>
+        </div>
+        <nav>
+            <ul class="nav-list">
+                <li class="nav-element">
+                    <a href="../№1/main.html">
+                        Главная
+                    </a>
+                </li>
+                <li class="nav-element">
+                    <a href="#">
+                        Первый семестр
+                    </a>
+                </li>
+                <li class="nav-element">
+                    <a href="#">
+                        Второй семестр
+                    </a>
+                </li>
+                <li class="nav-element">
+                    <a href="#">
+                        Услуги
+                    </a>
+                </li>
+                <li class="nav-element">
+                    <a href="#">
+                        Авторизация
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="wrapper">
+            <h2 class="form-heading">Заполните форму</h2>
+            <div class="flex-wrapper">
+                <div class="left-side">
+                    <p class="p-label">Имя</p>
+                    <p class="p-label">Почта</p>
+                    <p class="p-label">Телефон</p>
+                    <p class="p-label">Страна</p>
+                    <p class="p-label">Дата</p>
+                    <p class="p-label">Пожелания</p>
+                </div>
+                <div class="form">
+                    <form id="form">
+                        <input id="input-name" class="form-element" type="text" placeholder="Никитос">
+                        <input id="input-email" class="form-element" type="email" placeholder="example@yandex.ru">
+                        <input id="input-tel" class="form-element" type="tel" placeholder="8(800)555-35-35">
+                        <select class="select-country form-element">
+                            <option class="option-country" selected>Россия</option>
+                            <option class="option-country">Россия</option>
+                            <option class="option-country">Россия</option>
+                            <option class="option-country">Россия</option>
+                        </select>
+                        <input id="input-date" class="form-element" type="date">
+                        <textarea class="textarea form-element" placeholder="пожеланий нет"></textarea>
+                        <label class="checkbox"><input id="checkbox" type="checkbox"> Согласен со всем</label>
+                        <button class="button-post" id="button-post" type="submit" disabled>Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="link2">
+            <a href="https://vk.com/n1ck0ff">
+                <img src="vk.png" alt="#">
+            </a>
+        </div>
+        <div class="link1">
+            <a href="https://t.me/n1ck0ff">
+                <img src="tg.png" alt="#">
+            </a>
+        </div>
+    </main>
+    <footer>
+        <p>Новоженин Никита Денисович, 2024</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

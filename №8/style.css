@@ -1,0 +1,108 @@
+.navbar-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-toggle {
+    border: 0;
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  
+  .navbar {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand img {
+    height: 40px;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 1.1em;
+    font-weight: 500;
+  }
+  
+  #sidebar {
+    background-color: #e9ecef;
+    min-height: 100vh;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  #sidebar .nav-link {
+    font-size: 1em;
+    color: #333;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border-radius: 5px;
+  }
+  
+  #sidebar .nav-link.active, 
+  #sidebar .nav-link:hover {
+    background-color: #dee2e6;
+    color: #000;
+  }
+  
+  main {
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 1rem;
+  }
+  
+  h2, h3 {
+    color: #343a40;
+    font-weight: 600;
+  }
+  
+  table {
+    margin-top: 1rem;
+    border: 1px solid #dee2e6;
+  }
+  
+  table th, table td {
+    text-align: center;
+    padding: 0.75rem;
+  }
+  
+  table th {
+    background-color: #f1f3f5;
+    color: #495057;
+    font-weight: 600;
+  }
+  
+  table tbody tr:hover {
+    background-color: #f8f9fa;
+  }
+  
+  input[type="checkbox"] {
+    transform: scale(1.2);
+  }
+  
+  iframe {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (max-width: 768px) {
+    main {
+      padding: 1rem;
+    }
+  }
+  
+.d-block {
+    height: 300px;
+}

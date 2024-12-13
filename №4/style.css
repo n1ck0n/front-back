@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    font-family: "Merriweather", serif;
+    font-style: normal;
+}
+
+p {
+    font-size: 20px;
+}
+
+li {
+    font-size: 20px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+aside {
+    box-shadow: inset -5px 0 5px -3px rgba(0,0,0,0.3)
+}
+
+a:hover {
+    color: #555;
+}
+
+header {
+    padding-right: 50px;
+}
+
+.header-up {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#gh {
+    height: 10px;
+}
+
+.logo {
+    height: 100%;
+}
+
+.header-info {
+    right: 100px;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-element {
+    margin-left: 50px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    padding-right: 50px;
+}
+
+aside {
+    margin-right: 100px;
+    min-width: 240px;
+}
+
+aside > ul > li {
+    margin-bottom: 20px;
+}
+
+.with-photo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-info {
+    height: fit-content;
+}
+
+object {
+    height: 500px;
+    width: 700px;
+}
+
+footer {
+    text-align: center;
+}
+
+.link1 {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.link2 {
+    position: fixed;
+    right: 0;
+    bottom: 50px;
+}
+
+.table {
+    width: 500px;
+    border-collapse: collapse;
+}
+
+.table2 {
+    width: 700px;
+    margin-bottom: 30px;
+}
+
+td, th {
+    padding: 3px;
+    border: 1px solid black;
+}
+
+iframe {
+    margin-bottom: 30px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+object {
+    margin-bottom: 30px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+td {
+    text-align: center;
+}
+
+tr:hover {
+    background-color: #b6b6b6;
+    cursor: pointer;
+}
+
+table tr:first-child:hover {
+    background-color: #fff;
+    cursor: default;
+}

@@ -1,0 +1,101 @@
+@media (max-width: 821px) {
+    aside {
+        display: none;
+    }
+
+    main {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+    }
+}
+
+@media (max-width: 391px) {
+    aside {
+        display: none;
+    }
+
+    main {
+        padding-right: 0px;
+        padding-left: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .nav-element {
+        font-size: 12px;
+        margin-left: 15px;
+    }
+
+    p {
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    .logo {
+        width: 70px;
+        height: 70px;
+    }
+
+    .header-info {
+        height: 60px;
+    }
+
+    .nav-list {
+        padding-left: 0;
+        justify-content: space-between;
+    }
+
+    .main-info {
+        width: 90%;
+    }
+
+    .me {
+        width: 35%;
+    }
+
+    video {
+        margin-left: 0;
+        width: 100%;
+        
+    }
+    .card-img {
+        width: 150px;
+        height: 230px;
+        border-radius: 15px;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    .table {
+        width: 350px;
+    }
+    
+    .table2 {
+        width: 350px;
+        margin-bottom: 20px;
+    }
+
+    iframe {
+        width: 350px;
+    }
+
+    object {
+        width: 350px;
+    }
+}

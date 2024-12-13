@@ -1,0 +1,126 @@
+main {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+p {
+    font-size: 20px;
+}
+
+li {
+    font-size: 20px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: #555;
+}
+
+aside {
+    box-shadow: inset -5px 0 5px -3px rgba(0,0,0,0.3)
+}
+
+header {
+    padding-right: 50px;
+}
+
+.header-up {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 100%;
+}
+
+.header-info {
+    right: 100px;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.wrapper {
+    width: 25%;
+    height: 330px;
+    background-color: rgba(250, 210, 214, 0.587);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 30px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 20px;
+}
+
+.flex-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+form {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.form-heading {
+    text-align: center;
+}
+
+.p-label {
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+.form-element {
+    margin-bottom: 14px;
+}
+
+.textarea {
+    margin-bottom: 10px;
+}
+
+.checkbox {
+    margin-bottom: 10px;
+}
+
+.button-post {
+    width: 100px;
+    margin-left: 100px;
+}
+
+footer {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.link1 {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.link2 {
+    position: fixed;
+    right: 0;
+    bottom: 50px;
+}
